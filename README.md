@@ -106,3 +106,4 @@ References
 - YouTube API Documentation: https://developers.google.com/youtube
 - MongoDB Documentation: https://docs.mongodb.com/
 - Python Documentation: https://docs.python.org/
+- MySQL Documentation: https://dev.mysql.com/doc/
