@@ -537,7 +537,7 @@ with st.container():
         query7='''select channel_name as channelname ,channel_views as totalviews from channels'''
         mycursor.execute(query7)
         t7=mycursor.fetchall()
-        df7=pd.DataFrame(t7,columns=["likecount","videotitle"])
+        df7=pd.DataFrame(t7,columns=["channelname","totalviews"])
         st.write(df7)
     
     elif question=="8. What are the names of all the channels that have published videos in the year 2022?":
